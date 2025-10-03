@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+    }
+
+    .flash {
+      font-size: 2em;
+      animation: flash 1s infinite;
+    }
+
+    @keyframes flash {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flash">Made By proplayeryt</div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "security.html";
+    }, 3000);
+  </script>
+
+</body>
+</html>
